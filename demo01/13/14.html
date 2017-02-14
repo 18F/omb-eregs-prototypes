@@ -1,0 +1,243 @@
+
+                <html>
+                    <head>
+                        <style type="text/css">
+                            .context {
+                                color: lightgrey;
+                            }
+                            strong {
+                                color: red;
+                                font-weight: bold;
+                            }
+                        </style>
+                    </head>
+                <body>
+<p class='context'>General Requirements.</p>
+
+<ul>
+<li>
+<p>This guidance directs agencies to conduct �e-authentication risk assessments� on electronic transactions to ensure that there is a consistent approach across government. (see Attachment A). [ref. Reqs. 43.03-43.34]</p>
+</li>
+
+<li>
+<p>It also provides the public with clearly understood criteria for access to Federal government services online. Attachment B summarizes the public comments received on an earlier version of this guidance. [ref. Reqs. 43.03-43.34]</p>
+</li>
+</ul>
+
+<p class='context'>Attachment A</p>
+
+<ul>
+<li>
+<p class='context'>1.1.�� Summary</p>
+
+<ul>
+<li>
+<p>This guidance <strong>requires</strong> agencies to review new and existing electronic transactions to ensure that authentication processes provide the appropriate level of assurance. It establishes and describes four levels of identity assurance for electronic transactions requiring authentication. Assurance levels also provide a basis for assessing Credential Service Providers (CSPs) on behalf of Federal agencies. This document will assist agencies in determining their e-government authentication needs.  Agency business-process owners bear the primary responsibility to identify assurance levels and strategies for providing them. This responsibility extends to electronic authentication systems.</p>
+</li>
+
+<li>
+<p>Agencies <strong>should</strong> determine assurance levels using the following steps, described in Section 2.3 [ref. Req. 43.20]:<br />Conduct a risk assessment of the e-government system.<br />Map identified risks to the applicable assurance level.<br />Select technology based on e-authentication technical guidance.<br />Validate that the implemented system has achieved the required assurance level.<br />Periodically reassess the system to determine technology refresh requirements.</p>
+</li>
+</ul>
+</li>
+
+<li>
+<p class='context'>1.2.�� Scope</p>
+
+<ul>
+<li>
+<p>This guidance [ref. Reqs. 43.03-43.34] applies to remote authentication of human users of Federal agency IT systems for the purposes of conducting government business electronically (or e- government). Though that authentication typically involves a computer or other electronic device, this guidance does not apply to the authentication of servers, or other machines and network components.</p>
+</li>
+
+<li>
+<p>This guidance [ref. Reqs. 43.03-43.34] is intended to help agencies identify and analyze the risks associated with each step of the authentication process. The process includes (but is not limited to) identity proofing, credentialing, technical and administrative management, record keeping, auditing, and use of the credential. Each step of the process influences the technology�s overall conformance to the desired assurance level.</p>
+</li>
+
+<li>
+<p>This guidance [ref. Reqs. 43.03-43.34] does not directly apply to authorization. Authorization focuses on the actions permitted of an identity after authentication has taken place. Decisions concerning authorization are and should remain the purview of the business process owner.</p>
+</li>
+
+<li>
+<p>This guidance [ref. Reqs. 43.03-43.34] does not address issues associated with �intent to sign,� or agency use of authentication credentials as electronic signatures.  For more information on electronic signatures, see the OMB guidance on implementing GPEA1  and the Electronic Signatures in Global and National Commerce Act, Pub. L. No. 106-2292.</p>
+</li>
+
+<li>
+<p>This guidance [ref. Reqs. 43.03-43.34] does not identify which technologies should be implemented. The Department of Commerce�s National Institute for Standards and Technology (NIST) is developing complementary e-authentication technical guidance that agencies will use to identify appropriate technologies, based on the analysis process described here.</p>
+</li>
+
+<li>
+<p>This document [ref. Reqs. 43.03-43.34] does not confer, and may not be used to support, any right on behalf of any person or entity against the United States or its agencies or officials.</p>
+</li>
+</ul>
+</li>
+
+<li>
+<p class='context'>1.3.�� Overview</p>
+
+<ul>
+<li>
+<p>To successfully implement a government service electronically (or e-government), Federal agencies <strong>must</strong> determine the required level of assurance in the authentication for each transaction. This is accomplished through a risk assessment for each transaction. The assessment identifies: risks, and their likelihood of occurrence.</p>
+</li>
+
+<li>
+<p>This document expands on Section 5 by instructing agencies how to implement e-authentication processes by outlining a process for assessing risk, describing four levels of identity assurance, and explaining how to determine the appropriate level of identity assurance.</p>
+</li>
+</ul>
+</li>
+
+<li>
+<p class='context'>1.4 Applicability</p>
+
+<ul>
+<li>
+<p>This guidance [ref. Reqs. 43.03-43.34] applies to all such transactions for which authentication is required, regardless of the constituency (e.g. individual user, business, or government entity).</p>
+</li>
+</ul>
+</li>
+
+<li>
+<p class='context'>2.1</p>
+
+<ul>
+<li>
+<p>[ref. Reqs. 43.03-43.34] Level 1:  Little or no confidence in the asserted identity�s validity. Level 2:  Some confidence in the asserted identity�s validity. Level 3:  High confidence in the asserted identity�s validity. Level 4:  Very high confidence in the asserted identity�s validity.</p>
+</li>
+</ul>
+</li>
+
+<li>
+<p class='context'>2.2.�� Risks, Potential Impacts, and Assurance Levels</p>
+
+<ul>
+<li>
+<p>[ref. Reqs. 43.03-43.34] Potential Impact Categories:  To determine the appropriate level of assurance in the user�s asserted identity, agencies must assess the potential risks, and identify measures to minimize their impact. Authentication errors with potentially worse consequences require higher levels of assurance. Business process, policy, and technology may help reduce risk. The risk from an authentication error is a function of two factors: potential harm or impact, and the likelihood of such harm or impact.  Categories of harm and impact include: Inconvenience, distress, or damage to standing or reputation, Financial loss or agency liability, Harm to agency programs or public interests, Unauthorized release of sensitive information, Personal safety, Civil or criminal violations.</p>
+</li>
+
+<li>
+<p>[ref. Reqs. 43.03-43.34] Required assurance levels for electronic transactions are determined by assessing the potential impact of each of the above categories using the potential impact values described in Federal Information Processing Standard (FIPS) 199, �Standards for Security Categorization of Federal Information and Information Systems.� The three potential impact values are: Low impact, Moderate impact, High impact.</p>
+</li>
+
+<li>
+<p>[ref. Reqs. 43.03-43.34] Determining Assurance Level: Compare the impact profile from the risk assessment to the impact profiles associated with each assurance level.  To determine the required assurance level, find the lowest level whose impact profile meets or exceeds the potential impact for every category analyzed in the risk assessment (as noted in step 2 below).</p>
+</li>
+
+<li>
+<p>In analyzing potential risks, the agency <strong>must</strong> consider all of the potential direct and indirect results of an authentication failure, including the possibility that there will be more than one failure, or harms to more than one person.  The definitions of potential impacts contain some relative terms, like "serious" or "minor," whose meaning will depend on context.  The agency should consider the context and the nature of the persons or entities affected to decide the relative significance of these harms.  Over time, the meaning of these terms will become more definite as agencies gain practical experience with these issues.  The analysis of harms to agency programs or other public interests depends strongly on the context; the agency should consider these issues with care.</p>
+</li>
+
+<li>
+<p>[ref. Reqs. 43.15-43.18] In some cases impact may correspond to multiple assurance levels. In such cases, agencies <strong>should</strong> use the context to determine the appropriate assurance level.</p>
+</li>
+</ul>
+</li>
+
+<li>
+<p class='context'>2.3 Determining Assurance Levels and selecting authentication solutions using Risk Assessment</p>
+
+<ul>
+<li>
+<p>Step 1:  Conduct a risk assessment of the e-government system.  Guidance for agencies in conducting risk assessments is available in A-130, Section 5 of OMB�s GPEA guidance and existing NIST guidance. The risk assessment will measure the relative severity of the potential harm and likelihood of occurrence of a wide range of impacts (to any party) associated with the e-government system in the event of an identity authentication error.<br />Note: An E-government system may have multiple categories or types of transactions, which may require separate analysis within the overall risk assessment.  An E-government system may also span multiple agencies whose activities may require separate consideration.<br />Risk analysis is to some extent a subjective process, in which agencies must consider harms that might result from, among other causes, technical failures, malevolent third parties, public misunderstandings, and human error.  Agencies should consider a wide range of possible scenarios in seeking to determine what potential harms are associated with their business process.  It is better to be over-inclusive than under-inclusive in conducting this analysis.  Once risks have been identified, there may also be ways to adjust the business process to mitigate particular risks by reducing the likelihood that they will occur (see Step 4).<br />Step 2:  Map identified risks to the required assurance level.  The risk assessment should be summarized in terms of the potential impact categories in Section 2.2.<br />To determine the required assurance level, agencies should initially identify risks inherent in the transaction process, regardless of its authentication technology.  Agencies should then tie the potential impact category outcomes to the authentication level, choosing the lowest level of authentication that will cover all of potential impacts identified.  Thus, if five categories of potential impact are appropriate for Level 1, and one category of potential impact is appropriate for Level 2, the transaction would require a Level 2 authentication.  For example, if the misuse of a user�s electronic identity/credentials during a medical procedure presents a risk of serious injury or death, map to the risk profile identified under Level 4, even if other consequences are minimal.<br /><br />Step 3:  Select technology based on the NIST e-authentication technical guidance. After determining the assurance level, the agency should refer to the NIST e-authentication<br /> <br />technical guidance to identify and implement the appropriate technical requirements.<br /><br />Step 4: After implementation, validate that the information system has operationally achieved the required assurance level.  Because some implementations may create or compound particular risks, conduct a final validation to confirm that the system achieves the required assurance level for the user-to-agency process. The agency should validate that the authentication process satisfies the systems�s authentication requirements as part of required security procedures (e.g., certification and accreditation).<br /><br />Step 5: Periodically reassess the information system to determine technology refresh requirements.  The agency must periodically reassess the information system to ensure that the identity authentication requirements continue to be valid as a result of technology changes or changes to the agency�s business processes. Annual information security assessment requirements provide an excellent opportunity for this. Agencies may adjust the identity credential�s level of assurance using additional risk mitigation measures. Easing identity credential assurance level requirements may increase the size of the enabled customer pool, but agencies must ensure that this does not corrupt the system�s choice of the appropriate assurance level.</p>
+</li>
+</ul>
+</li>
+
+<li>
+<p class='context'>2.5 Scope and Elements of Risk</p>
+
+<ul>
+<li>
+<p>Section 9c of OMB�s GPEA guidance states agencies <strong>should</strong> plan how to minimize this risk by ensuring user approval of such information. Section 8c of the OMB Procedures and Guidance on Implementing GPEA includes guidance on minimizing the likelihood of repudiation.</p>
+</li>
+
+<li>
+<p>Legal issues can present significant policy challenges for agencies. Agencies <strong>should</strong> consider these issues when assigning transactions to assurance levels. Risk assessments <strong>should</strong> include the potential effects of illegal activities and process failures with respect to: agency enforcement priorities, agency programmatic interests, broader public interests such as national security, the environment, and economic markets.Some of these harms (e.g., financial loss or release of personal information) are described in each assurance level; others depend on the agency's programmatic interests. The risk analysis process is necessarily highly contextual, and agencies <strong>should</strong> consider whether their systems present any distinctive risks.</p>
+</li>
+
+<li>
+<p>The risk analysis incorporates this by discussing the risks associated with criminal and civil violations, and harm to agency programs or the public interest. Agencies <strong>should</strong> remember to consult appropriately with their counsel's office in their determination of this impact. When assessing this risk and designing a process, agencies <strong>should</strong> consider single acts and patterns of action that could affect agency programs. For example, if sensitive information is available from an agency website, the agency <strong>should</strong> consider the effects of single acts and possible patterns of such activity when assessing risk levels. (18 U.S.C. 1029, 1030)</p>
+</li>
+
+<li>
+<p>Agencies <strong>are expected to</strong> follow all relevant guidance issued by the National Achieves and Records Administration (NARA) regarding the handling of electronic records. This guidance addresses implementation issues further in section 4.1 [ref. Req. 43.24].</p>
+</li>
+</ul>
+</li>
+
+<li>
+<p class='context'>3. Assessing Confidence in Credential Service Providers</p>
+
+<ul>
+<li>
+<p>The CSP�s issuance and maintenance policy influences its e-authentication process trustworthiness. The E-Authentication Initiative <strong>will</strong> therefore develop an assessment process for the government to determine the maximum assurance level merited by the CSP.</p>
+</li>
+</ul>
+</li>
+
+<li>
+<p class='context'>4.1. The E-Authentication Process</p>
+
+<ul>
+<li>
+<p>To determine the level of credential required to validate a user�s identity, an agency <strong>must</strong> understand how its business applications process the credential. The agency <strong>must</strong> identify the requirements for each step in the e-authentication (and authorization) process. This includes the following steps: Initial enrollment, Subsequent visits to agency application, Verification of identity credential, Transaction management, Long term records management, Periodic system tests, Suspension, revocation, re-issuanc Audit. Each step is explained in the e-authentication technical guidance.  Responsibility for these steps lies with the business process owner, designated agency, or cross-agency authority.</p>
+</li>
+</ul>
+</li>
+
+<li>
+<p class='context'>4.2.�� Using Anonymous Credentials</p>
+
+<ul>
+<li>
+<p>These anonymous credentials have limited application and are to be implemented on a case- by-case basis. Some people may have anonymous and identity credentials. As general matter, anonymous credentials are appropriate for Levels 1 and 2 only.</p>
+</li>
+</ul>
+</li>
+
+<li>
+<p class='context'>4.3.�� Information Sharing and the Privacy Act</p>
+
+<ul>
+<li>
+<p>When developing authentication processes, agencies <strong>must</strong> satisfy the requirements for managing security in the collection and storage of information associated with validating user identities. The <a href="#not-implemented">E-Government Act of 2002,</a> section 208 requires agencies to conduct privacy impact assessments for electronic information systems and collections. This includes performing an assessment when authentication technology is added to an electronic<br />information system accessed by members of the public. For additional information on privacy impact assessments, consult OMB guidance.</p>
+</li>
+
+<li>
+<p>To the extent that the authentication process captures information that is protected by the <a href="#not-implemented">Privacy Act</a> (because it is information about an individual that the agency retrieves by an individual's name or other identifier and thus is maintained in an agency <a href="#not-implemented">Privacy Act</a> system of records), the agency needs to comply with the <a href="#not-implemented">Privacy Act</a> with respect to such information.</p>
+</li>
+
+<li>
+<p>Authentication data <strong>must</strong> be protected from unauthorized disclosure or modification. The Privacy Act generally requires that registered users be allowed to have access to and request amendment to information about them maintained in a system of records. Information from the system of records should not be shared, except in accordance with the Privacy Act and other applicable laws.</p>
+</li>
+</ul>
+</li>
+
+<li>
+<p class='context'>4.4  4.4. Cost/Benefit Considerations</p>
+
+<ul>
+<li>
+<p>In some cases initial capital cost may be small, with higher long-term maintenance cost. It is therefore important to assess the costs over the life cycle of the system. Authentication errors can result in significant costs to agencies and the public. These costs will be identified by the risk analysis set forth in section 2, and should be included in any cost/benefit analysis.</p>
+</li>
+
+<li>
+<p>Overly burdensome systems may affect non-federal entities� use of the system diminishing anticipated benefits and lowering return on investment. If a technical solution for an assurance level is too costly or burdensome, agencies <strong>should</strong> consider reducing the required assurance level and implementing management controls or business process adjustments to achieve the same level of assurance. If the cost cannot be reduced to an acceptable level through such risk mitigation approaches, then the agency may need to reconsider its vision for the e-authentication system.</p>
+</li>
+
+<li>
+<p>Higher assurance levels may require more costly credentials. Minimizing the number of credentials can reduce costs. Refer to Section 3 of the GPEA guidance for additional information on assessing risks, costs, and benefits. The e-authentication technical guidance will provide alternatives for addressing assurance levels, which may help agencies to better manage authentication costs.</p>
+</li>
+</ul>
+</li>
+
+<li>
+<p class='context'>5. Effective Dates of Guidance</p>
+
+<ul>
+<li>
+<p>Agencies <strong>must</strong> categorize all existing transactions/systems requiring user authentication into one of the described assurance levels by September 15, 2005.</p>
+</li>
+</ul>
+</li>
+</ul>
+</body>
+                </html>

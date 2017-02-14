@@ -1,0 +1,62 @@
+December 5, 2012
+
+M-13-02
+
+MEMORANDUM FOR THE HEADS OF EXECUTIVE DEPARTMENTS AND AGENCIES
+
+FROM: Jeffrey D. Zients, Deputy Director for Management
+
+SUBJECT: Improving Acquisition through Strategic Sourcing
+
+Executive departments and agencies spend over $500 billion annually to buy goods and services in support of their missions. Since taking office, President Obama has prioritized cutting unnecessary contracting and ensuring that all contracts deliver the best value for the American people. As a result, agencies have saved billions of taxpayer dollars through smarter acquisition processes. One key way agencies have saved money is by pooling their spending, either by centralizing the agency's contracting decisions or by using government-wide strategic sourcing vehicles, in order to lower prices and reduce duplication and administrative costs. For example, since being put into place in Fiscal Year (FY) 2010, government-wide contracts for office supplies have saved over $140 million by offering lower prices than any single agency could negotiate on its own. Similar vehicles for domestic delivery services saved over $31 million in FY 2011 over what agencies were paying under previous agreements. 
+
+Additionally, the Office of Management and Budget (OMB) called on agencies to review certain information technology (IT) investments through the PortfolioStat process, I which has resulted in the identification of significant savings opportunities. Agencies are using the results of these reviews to better consolidate their spending in several categories and reduce contract duplication. These efforts will serve as a foundation for enabling additional strategic sourcing to support the PortfolioStat objective of maximizing the return on IT investments by consolidating the acquisition and management of commodity IT goods and services and increasing the use of shared-service delivery models. 
+
+This memorandum builds on the Administration's successful efforts and establishes a broad strategic sourcing initiative to ensure that all agencies manage their acquisitions effectively and that, wherever possible, agencies join together to negotiate the best deal for the taxpayer.  While every agency must eliminate inefficiencies from its acquisition processes, this initiative puts additional responsibilities for designing and implementing government-wide strategic sourcing solutions on large agencies, which make up the vast majority of all Federal contracting. 
+
+I. Designation of Strategic Sourcing Accountable Officials (SSAOs) by CFO Act Agencies
+
+An organization's success in strategic sourcing requires senior-level leadership and commitment. Therefore, the [74.03:who:head of each of the 24 Chief Financial Officer (CFO) Act agencies] [74.03:priority:shall] [74.03:action:designate] a [74.03:obj:Strategic Sourcing Accountable Official (SSAO)], who will have the authority to coordinate the agency's internal strategic sourcing activities and its participation in governmentwide efforts, such as those described below. Each agency shall [74.03:how:send the proposed SSAO's name and contact information to OMB] by [74.03:when:January 15,2013].
+
+II. Establishment of the Interagency Strategic Sourcing Leadership Council (SSLC)
+
+The majority of Federal spending is driven by a small number oflarge agencies, so these agencies are critical to the implementation and success of government-wide strategic sourcing efforts. Many of these agencies have experience with strategic sourcing efforts, and some of them currently manage government-wide acquisition contracts (GWACs) that could be adapted to support strategic sourcing efforts.
+
+Therefore, I have established the Strategic Sourcing Leadership Council (SSLC), chaired by the Administrator for Federal Procurement Policy and consisting of representatives from the Departments of Defense (DOD), Energy, Health and Human Services, Homeland Security, Veterans Affairs, the General Services Administration, the National Aeronautics and Space Administration, and other agencies as designated by the Administrator. DOD's participation on the SSLC includes representatives from the Office of the Secretary of Defense; from each of the Departments of the Army, the Navy, and the Air Force; and from the Defense Logistics Agency.  In addition, because small businesses playa vital role in Federal contracting, the SSLC includes a representative from the Small Business Administration. 
+
+The SSLC shall, in consultation with the Chief Acquisition Officers Council, the Chief Financial Officers Council, the Chief Information Officers Council, the Performance Improvement Council, and other interagency councils as necessary, lead the government's efforts to increase the use of government-wide management and sourcing of goods and services. The [74.04:who:SSLC] [74.04:priority:will] [74.04:action:meet] [74.04:when:regularly] to provide long-term leadership of the government's strategic sourcing efforts as well as to take actions that save taxpayer dollars now. 
+
+To that end, by [74.05:when:March 2013], the [74.05:who:SSLC] [74.05:priority:shall] [74.05:action:submit] [74.05:how:to OMB] a [74.05:obj:set of recommendations] for management strategies for specific goods and services - including several IT commodities identified through the PortfolioStat process - that would ensure that the Federal government receives the most favorable offer possible. At a minimum, the SSLC recommendations shall:
+
+	• 	 identify at least five products and/or services for which new government-wide acquisition vehicles or management approaches should be developed and made mandatory, to the maximum extent practicable, for the SSLC agencies;
+	• 	 for these identified commodities and solutions, provide a supporting spend analysis, estimate savings opportunities, and define metrics for tracking progress;
+	• 	 identify existing contract vehicles and relevant contract renewal dates that could be used to develop transition strategies to the new solutions;
+	• 	 identify agencies that should serve as "executive agents" to lead the development of each of these new solutions (with the assistance of interagency teams comprised of agency experts);
+	• 	 propose plans and management strategies to maximize the use of each strategic sourcing effort;
+	• 	 propose vendor management or other strategies that could be used to reduce the variability in the prices paid for similar goods and services, where the development of new government-wide vehicles may not be immediately feasible; and
+	• 	 propose other savings strategies that could be implemented, such as adapting existing vehicles (e.g., Multiple Award Schedules, GWACs, and Multi-agency Contracts) to ensure that certain characteristics of strategic sourcing are followed. 
+
+Additionally, each of the [74.06:who:SSLC agencies] [74.06:priority:shall] [74.06:action:promote], to the maximum extent practicable, [74.06:obj:sound strategic sourcing practices] [74.06:how:within their agencies]. For example, each [74.07:who:SSLC agency] [74.07:priority:shall] [74.07:action:establish] an [74.07:obj:internal cross-functional strategic sourcing council] to oversee the· agency's related activities. These efforts include, but are not limited to, issuing and enforcing mandatory use policies for government wide and agency wide strategic sourcing solutions to the extent appropriate, providing acquisition and management data to the General Services Administration and other executive agents in support of the development of new solutions, and tracking spending and savings information for use by OMB, as further directed by the Office of Federal Procurement Policy. 
+
+III. Additional Responsibilities of the General Services Administration
+
+In addition to its responsibilities under sections I and II, above, the
+[74.08,74.09,74.10:who:Administrator of General Services] [74.08,74.09,74.10:priority:shall] also:
+	• 	 [74.08:action:implement], [74.08:how:in consultation with the SSLC], [74.08:obj:at least five new government-wide strategic sourcing solutions] in each of [74.08:when:FY 2013 and FY 2014];
+	• 	 [74.09:action:increase] the [74.09:obj:transparency of prices paid for common goods and services for use by agency officials in market research and negotiations]; and 
+	• 	 [74.10:when:as needed], [74.10:action:promulgate] [74.10:obj:requirements, regulations, and best practices for acquiring, using, and, where applicable, disposing of the commodities managed through strategic sourcing initiatives]. 
+
+IV. Characteristics of Strategic Sourcing Acquisition Vehicles
+
+The specific characteristics of strategic sourcing vehicles will vary according to the product or service being sourced. However, at a minimum, [74.11,74.12,74.13,74.14:who:government-wide vehicles] [74.11,74.12,74.13,74.14,74.15,74.16:priority:shall]:
+	• 	 [74.11:action:reflect] [74.11:obj:input from a large number of potential agency users - especially the largest likely users - regarding customer demand for the goods and services being considered, the acquisition strategy (including contract pricing, delivery and other terms and conditions, and performance requirements), and the commodity management approach];
+	• 	 [74.12:action:ensure] that [74.12:obj:the Federal government gets credit for all sales provided under that vehicle, regardless of payment method, unless the sales are identified with other government contracts], so that volume-based pricing discounts can be applied;
+	• 	 [74.13:action:include] [74.13:obj:tiered pricing, or other appropriate strategies], to reduce prices as cumulative sales volume increases;
+	• 	 [74.14:action:require] [74.14:how:vendors to provide] [74.14:obj:sufficient pricing, usage, and performance data] to enable the government to improve their commodity management practices on an ongoing basis; and
+	• 	 be supported by a [74.15,74.16:who:contract administration plan] that demonstrates commitment [74.15,74.16:how:by the executive agent] to [74.15:obj:perform active commodity management] and [74.16:obj:monitor vendor performance and pricing changes throughout the life of the contract] to ensure the benefits of strategic sourcing are maintained. 
+
+V. Increasing Small Business Opportunities
+
+Maximizing small business utilization in Federal contracting remains a top priority of this Administration. To the maximum extent practicable, all [74.17,74.18:who:strategic sourcing opportunities] [74.17,74.18:priority:shall] [74.17:action:seek to increase] [74.17:obj:participation by small businesses]. To that end, all [74.18,74.19:who:proposed strategic sourcing agreements] [74.18,74.19:priority:must] [74.18:action:baseline] [74.18:obj:small business use] [74.18:how:under current strategies] and [74.19:action:set] [74.19:obj:goals to meet or exceed that baseline participation] [74.19:how:under the new strategic sourcing vehicles].
+
+Thank you for your attention to this important initiative. For additional information, please contact Jack Kelly at the Office of Federal Procurement Policy on (202) 395-7579 or jkelly@omb.eop.gov. 

@@ -1,0 +1,123 @@
+
+                <html>
+                    <head>
+                        <style type="text/css">
+                            .context {
+                                color: lightgrey;
+                            }
+                            strong {
+                                color: red;
+                                font-weight: bold;
+                            }
+                        </style>
+                    </head>
+                <body>
+<p>This Memorandum <strong>requires</strong> that all publicly accessible Federal websites and web services only provide service through a secure connection. The strongest privacy and integrity protection currently available for public web connections is Hypertext Transfer Protocol Secure (HTTPS).</p>
+
+<p>[This Memorandum] provides guidance to agencies for making the transition to HTTPS and a deadline by which agencies <strong>must be</strong> in compliance.</p>
+
+<p>Private and secure connections are becoming the Internet's baseline, as expressed by the policies ofthe Internet's standards bodies, popular web browsers, and the Internet community of practice. The Federal government <strong>must</strong> adapt to this changing landscape, and benefits by beginning the conversion now. Proactive investment at the Federal level will support faster internet-wide adoption and promote better privacy standards for the entire browsing public.</p>
+
+<p>All browsing activity <strong>should</strong> be considered private and sensitive. An HTTPS-Only standard will eliminate inconsistent, subjective determinations across agencies regarding which content or browsing activity is sensitive in nature, and create a stronger privacy standard government-wide.</p>
+
+<p>Although some Federal websites currently use HTTPS, there has not been a consistent policy in this area. An HTTPS-only mandate will provide the public with a consistent, private browsing experience and position the Federal Government as a leader in Internet security.</p>
+
+<p class='context'>What HTTPS Does</p>
+
+<ul>
+<li>
+<p>HTTPS verifies the identity of a website or web service for a connecting client, and encrypts nearly all information sent between the website or service and the user. Protected information includes cookies, user agent details, URL paths, form submissions, and query string parameters. HTTPS is designed to prevent this information from being read or changed while in transit. HTTPS is a combination ofHTTP and Transport Layer Security (TLS). TLS is a network protocol that establishes an encrypted connection to an authenticated peer over an untrusted network.</p>
+</li>
+</ul>
+
+<p class='context'>Challenges and Considerations</p>
+
+<ul>
+<li>
+<p class='context'>Server Name Indication</p>
+
+<ul>
+<li>
+<p>The Server Name Indication extension to TLS allows for more efficient use of IP addresses when serving multiple domains. However, these technologies are not supported by some legacy clients. Web service owners <strong>should</strong> evaluate the feasibility of using this technology to improve performance and efficiency.</p>
+</li>
+</ul>
+</li>
+
+<li>
+<p class='context'>Mixed Content</p>
+
+<ul>
+<li>
+<p>Websites served over HTTPS <strong>need to</strong> ensure that all external resources (images, scripts, fonts, iframes, etc.) are also loaded over a secure connection. Modern browsers will refuse to load many insecure resources referenced from within a secure website. When migrating existing websites, this can involve a combination of automated and manual effort to update, replace, or remove references to insecure resources. For some websites, this can be the most time consuming aspect ofthe migration process.</p>
+</li>
+</ul>
+</li>
+
+<li>
+<p class='context'>APIs and Services</p>
+
+<ul>
+<li>
+<p>Web services that serve primarily non-browser clients, such as web APis, <strong>may require</strong> a more gradual and hands-on migration strategy, as not all clients can be expected to be configured for HTTPS connections or to successfully follow redirects.</p>
+</li>
+</ul>
+</li>
+
+<li>
+<p class='context'>Planning for Change</p>
+
+<ul>
+<li>
+<p>Federal websites and services <strong>should</strong> deploy HTTPS in a manner that allows for rapid updates to certificates, cipher choices(including forward secrecy) protocol versions, and other configuration elements.</p>
+</li>
+
+<li>
+<p>Agencies <strong>should</strong> monitor https.cio.gov and other public resources to keep apprised of current best practices.</p>
+</li>
+</ul>
+</li>
+
+<li>
+<p class='context'>Strict Transport Security</p>
+
+<ul>
+<li>
+<p>Websites and services available over HTTPS <strong>must</strong> enable HTTP Strict Transport Security (HSTS) to instruct compliant browsers to assume HTTPS going forward.</p>
+</li>
+
+<li>
+<p>Once HSTS is in place, domains <strong>can be</strong> submitted to a "preload list used by all major browsers to ensure the HSTS policy is in effect at all times.</p>
+</li>
+</ul>
+</li>
+</ul>
+
+<p class='context'>Cost Effective Implementation</p>
+
+<ul>
+<li>
+<p class='context'>Guidelines</p>
+
+<ul>
+<li>
+<p>This Memorandum <strong>requires</strong> that Federal agencies deploy HTTPS on their domains using the following guidelines. � Newly developed websites and services at all Federal agency domains or subdomains <strong>must</strong> adhere to this policy upon launch.</p>
+</li>
+
+<li>
+<p>[This Memorandum <strong>requires</strong> that Federal agencies deploy HTTPS on their domains using the following guidelines.] � For existing websites and services, agencies <strong>should</strong> prioritize deployment using a risk based analysis. Web services that involve an exchange of personally identifiable information (PII), where the content is unambiguously sensitive in nature, or where the content receives a high-level of traffic <strong>should</strong> receive priority and migrate as soon as possible.</p>
+</li>
+
+<li>
+<p>[This Memorandum <strong>requires</strong> that Federal agencies deploy HTTPS on their domains using the following guidelines.] � Agencies <strong>must</strong> make all existing websites and services accessible through a secure connection  (HTTPS-on1y, with HSTS) by December 3 1, 2016.</p>
+</li>
+
+<li>
+<p>[This Memorandum <strong>requires</strong> that Federal agencies deploy HTTPS on their domains using the following guidelines.] � The use of HTTPS is <strong>encouraged</strong> on intranets, but not explicitly required.</p>
+</li>
+</ul>
+</li>
+</ul>
+
+<p>DELETE - This is out of place and does not contain the accurate text of any requirement.</p>
+</body>
+                </html>

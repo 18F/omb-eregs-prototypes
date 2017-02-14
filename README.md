@@ -2,7 +2,9 @@
 
 This repository contains protoypes for what's become
 [omb-eregs](https://github.com/18F/omb-eregs). This repository is deprecated,
-but kept for posterity.
+but kept for posterity. Particularly, note that many of the Python files have
+been moved around from their original location; to run them again may require
+edits.
 
 ## Contributing
 

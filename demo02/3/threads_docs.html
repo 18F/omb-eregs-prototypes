@@ -1,0 +1,386 @@
+
+<html>
+<head>
+    <style type="text/css">
+        .who, .blur .who.unblur {
+            color: #00B;
+        }
+        .priority, .blur .priority.unblur {
+            color: #B00;
+            font-weight: bold;
+        }
+        .action, .blur .action.unblur {
+            color: #B0B;
+        }
+        .obj, .blur .obj.unblur {
+            color: #0B0;
+        }
+        .how, .blur .how.unblur {
+            color: #BB0;
+            font-style: italic;
+        }
+        .when, .blur .when.unblur {
+            color: #0BB;
+        }
+        .blur, .blur .who, .blur .priority, .blur .action, .blur .obj, .blur .how, .blur .when {
+            color: #BBB;
+        }
+        .req-container {
+            border: 1px solid black;
+            position: fixed;
+            background: white;
+            padding: 10px;
+        }
+    </style>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="underscore-min.js"></script>
+    <script src="threads_docs.js"></script>
+</head>
+<body>
+    
+<div class="req-container">
+<div class="req" data-req-id="73.03">
+<span class='who'>All agencies</span>
+<span class='priority'>should</span>
+<span class='action'>reaffirm or designate</span>
+<span class='obj'>new SAO</span>
+<span class='how'>by sending their information to PRMD@nara.gov</span>
+by <span class='when'>2013-11-15</span>
+</div>
+<div class="req" data-req-id="74.07">
+<span class='who'>SSLC</span>
+<span class='priority'>must</span>
+<span class='action'>establish</span>
+<span class='obj'>internal sourcing council</span>
+</div>
+<div class="req" data-req-id="74.04">
+<span class='who'>SSLC</span>
+<span class='priority'>must</span>
+<span class='action'>meet</span>
+<span class='when'>regularly</span>
+</div>
+<div class="req" data-req-id="74.12">
+<span class='who'>CFO Act agencies' vehicles</span>
+<span class='priority'>must</span>
+<span class='action'>ensure</span>
+<span class='obj'>the Federal government gets credit for all vehicle sales</span>
+</div>
+<div class="req" data-req-id="74.03">
+<span class='who'>CFO Act agency heads</span>
+<span class='priority'>must</span>
+<span class='action'>designate</span>
+<span class='obj'>SSAO</span>
+<span class='how'>by sending the proposed their contact info to OMB</span>
+by <span class='when'>2013-01-15</span>
+</div>
+<div class="req" data-req-id="74.17">
+<span class='who'>CFO Act agencies' strategic sourcing opportunities</span>
+<span class='priority'>must</span>
+<span class='action'>seek to increase</span>
+<span class='obj'>participation by small business</span>
+</div>
+<div class="req" data-req-id="74.10">
+<span class='who'>GSA</span>
+<span class='priority'>must</span>
+<span class='action'>promulgate</span>
+<span class='obj'>requirements for SSI managed commodities</span>
+<span class='when'>as needed</span>
+</div>
+<div class="req" data-req-id="74.11">
+<span class='who'>CFO Act agencies' vehicles</span>
+<span class='priority'>must</span>
+<span class='action'>reflect</span>
+<span class='obj'>input from agency users</span>
+</div>
+<div class="req" data-req-id="74.08">
+<span class='who'>GSA</span>
+<span class='priority'>must</span>
+<span class='action'>implement</span>
+<span class='obj'>at least five new strategic sourcing solutions</span>
+<span class='how'>in consulation with the SSLC</span>
+<span class='when'>FY 2013 and FY 2014</span>
+</div>
+<div class="req" data-req-id="74.15">
+<span class='who'>CFO Act agencies' vehicles' contract administration plan</span>
+<span class='priority'>must</span>
+<span class='action'>include</span>
+<span class='obj'>active commodity management</span>
+<span class='how'>by the executive agent</span>
+</div>
+<div class="req" data-req-id="74.18">
+<span class='who'>CFO Act agencies' proposed strategic sourcing agreements</span>
+<span class='priority'>must</span>
+<span class='action'>baseline</span>
+<span class='obj'>small business use</span>
+<span class='how'>under current strategies</span>
+</div>
+<div class="req" data-req-id="73.02">
+<span class='who'>All agencies</span>
+<span class='priority'>must</span>
+<span class='action'>send</span>
+<span class='obj'>RMSA spreadsheet</span>
+<span class='how'>to rmselfassessment@nara.gov</span>
+by <span class='when'>2014-01-31</span>
+</div>
+<div class="req" data-req-id="74.06">
+<span class='who'>SSLC</span>
+<span class='priority'>must</span>
+<span class='action'>promote</span>
+<span class='obj'>sound strategic sourcing practices</span>
+<span class='how'>within their agencies</span>
+</div>
+<div class="req" data-req-id="74.09">
+<span class='who'>GSA</span>
+<span class='priority'>must</span>
+<span class='action'>increase</span>
+<span class='obj'>transparency of prices paid by agency officials</span>
+</div>
+<div class="req" data-req-id="74.13">
+<span class='who'>CFO Act agencies' vehicles</span>
+<span class='priority'>must</span>
+<span class='action'>include</span>
+<span class='obj'>tiered pricing, or other appropriate strategies</span>
+</div>
+<div class="req" data-req-id="74.19">
+<span class='who'>CFO Act agencies' proposed strategic sourcing agreements</span>
+<span class='priority'>must</span>
+<span class='action'>set</span>
+<span class='obj'>goals to meet or exceed baseline participation</span>
+<span class='how'>under the new strategic sourcing vehicles</span>
+</div>
+<div class="req" data-req-id="74.05">
+<span class='who'>SSLC</span>
+<span class='priority'>must</span>
+<span class='action'>submit</span>
+<span class='obj'>set of recommendations</span>
+<span class='how'>to OMB</span>
+by <span class='when'>2013-03-01</span>
+</div>
+<div class="req" data-req-id="74.16">
+<span class='who'>CFO Act agencies' vehicles' contract administration plan</span>
+<span class='priority'>must</span>
+<span class='action'>include</span>
+<span class='obj'>monitoring of vendor performance and pricing changes</span>
+<span class='how'>by the executive agent</span>
+</div>
+<div class="req" data-req-id="74.14">
+<span class='who'>CFO Act agencies' vehicles</span>
+<span class='priority'>must</span>
+<span class='action'>require</span>
+<span class='obj'>sufficient pricing, usage, and performance data</span>
+<span class='how'>from vendors</span>
+</div>
+<div class="req" data-req-id="73.01">
+<span class='who'>All agencies</span>
+<span class='priority'>should</span>
+<span class='action'>send</span>
+<span class='obj'>SAO report</span>
+<span class='how'>to PRMD@nara.gov</span>
+by <span class='when'>2014-01-31</span>
+</div>
+</div>
+<p class="text">AC 01.2014
+</p>
+<p class="text">
+</p>
+<p class="text">October 22, 2013
+</p>
+<p class="text">
+</p>
+<p class="text">MEMORANDUM TO FEDERAL AGENCY CONTACTS: Annual Records Management Requirements Reporting Period Now Open 
+</p>
+<p class="text">
+</p>
+<p class="text">Today, we opened the annual records management reporting requirements period.
+</p>
+<p class="text">
+</p>
+<p class="text">Due to the recent government shutdown, the beginning of the reporting period was delayed. In consultation with the Office of Management and Budget (OMB), we have extended the reporting deadline from December 31, 2013 to January 31, 2014.
+</p>
+<p class="text">
+</p>
+<p class="text">The following list provides detailed explanations of what reports are required, when reports are due, and how to submit reports to NARA. 
+</p>
+<p class="text">
+</p>
+<p class="text">1. Senior Agency Official (SAO) annual report: Progress towards specific goals or requirements in NARA/OMB M-12-18, Managing Government Records Directive. You should have received instructions and the template for the report on August 29, 2013. (SEE AC 29 2013: Senior Agency Official Annual Report Template). The template is attached again here for your convenience. <span class='tag obj' data-reqs='["73.01"]'>Reports</span> <span class='tag priority' data-reqs='["73.01"]'>should</span> be <span class='tag action' data-reqs='["73.01"]'>sent</span> <span class='tag how' data-reqs='["73.01"]'>to PRMD@nara.gov</span> by <span class='tag when' data-reqs='["73.01"]'>Friday, January 31, 2014</span>. 
+</p>
+<p class="text">
+</p>
+<p class="text">2. Records Management Self Assessment (RMSA): Record Officers and others officially assigned to respond to the 2013 RMSA should have received today a link to enter your agency's data. 
+</p>
+<p class="text">
+</p>
+<p class="text">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;For security reasons, this link cannot be forwarded to other individuals so it is imperative that we have the correct point-of-contact information for your agency. If you did not receive this link and think you should have or if you received the link and are no longer responsible for completing the RMSA for your agency please contact rmselfassessment@nara.gov by November 1, 2013. 
+</p>
+<p class="text">
+</p>
+<p class="text">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Attached are MS Word and Fill-able PDF versions of the 2013 RMSA for your convenience to use while gathering information and compiling the official response. Please do not return either of these forms to us. Your agency's official response must be entered into the survey tool using the link described above.
+</p>
+<p class="text">
+</p>
+<p class="text">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;You will have until 11:59 p.m. EST Friday, January 31, 2014 to complete the self-assessment. We will be unable to accept submissions through the online system after this date.  
+</p>
+<p class="text">
+</p>
+<p class="text">3. Directive Requirements - 2.2 and 2.5: As part of this year's RMSA, you must submit your agency's responses to two requirements established in the Managing Government Records Directive: 
+</p>
+<p class="text">
+</p>
+<p class="text">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a. Part I, Section 2, Requirement 2.2 requires your agency to identify for transfer its permanent records that have been in existence for more than 30 years and report this information to NARA.
+</p>
+<p class="text">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b. Part I, Section 2, Requirement 2.5 requires your agency's Records Officer to identify all unscheduled records in your agency.  This requirement also covers all records stored at NARA and in other storage facilities that have not been properly scheduled.
+</p>
+<p class="text">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Your agency's responses to these requirements must be submitted using the spreadsheets provided by NARA earlier this year.  (See AC 23.2013:  NARA/OMB M-12-18, Goals Due on or Before December 31, 2013.) If your agency did not receive copies of the spreadsheets, contact us immediately. All <span class='tag obj' data-reqs='["73.02"]'>spreadsheets</span> <span class='tag priority' data-reqs='["73.02"]'>must</span> be <span class='tag action' data-reqs='["73.02"]'>sent</span> <span class='tag how' data-reqs='["73.02"]'>to rmselfassessment@nara.gov</span> by <span class='tag when' data-reqs='["73.02"]'>January 31, 2014</span>. 
+</p>
+<p class="text">
+</p>
+<p class="text">4. Annual SAO Designation: please <span class='tag action' data-reqs='["73.03"]'>reaffirm or designate</span> <span class='tag obj' data-reqs='["73.03"]'>a new SAO</span> <span class='tag how' data-reqs='["73.03"]'>by sending the name, title, agency, office, email, phone number, and address information of the agency SAO to PRMD@nara.gov</span> by <span class='tag when' data-reqs='["73.03"]'>November 15, 2013</span>. Please note that this is the only deadline not changed due to the furlough.
+</p>
+<p class="text">
+</p>
+<p class="text">Please note: These reports could be subject to public release pursuant to FOIA.  Please let us know if there is any portion of your responses that you believe should not be released, along with the basis for withholding.  
+</p>
+<p class="text">
+</p>
+<p class="text">If you have any questions regarding the Directive, please contact Lisa.Haralampus@nara.gov or PRMD@nara.gov. If you have any questions regarding the RMSA, please contact Cindy.Smolovik@nara.gov or rmselfassesment@nara.gov.
+</p>
+<p class="text">
+</p>
+<p class="text"> 
+</p>
+<p class="text">PAUL M. WESTER, JR.
+</p>
+<p class="text">Chief Records Officer
+</p>
+<p class="text">for the U.S. Government
+</p>
+<hr />
+<p class="text">December 5, 2012
+</p>
+<p class="text">
+</p>
+<p class="text">M-13-02
+</p>
+<p class="text">
+</p>
+<p class="text">MEMORANDUM FOR THE HEADS OF EXECUTIVE DEPARTMENTS AND AGENCIES
+</p>
+<p class="text">
+</p>
+<p class="text">FROM: Jeffrey D. Zients, Deputy Director for Management
+</p>
+<p class="text">
+</p>
+<p class="text">SUBJECT: Improving Acquisition through Strategic Sourcing
+</p>
+<p class="text">
+</p>
+<p class="text">Executive departments and agencies spend over $500 billion annually to buy goods and services in support of their missions. Since taking office, President Obama has prioritized cutting unnecessary contracting and ensuring that all contracts deliver the best value for the American people. As a result, agencies have saved billions of taxpayer dollars through smarter acquisition processes. One key way agencies have saved money is by pooling their spending, either by centralizing the agency's contracting decisions or by using government-wide strategic sourcing vehicles, in order to lower prices and reduce duplication and administrative costs. For example, since being put into place in Fiscal Year (FY) 2010, government-wide contracts for office supplies have saved over $140 million by offering lower prices than any single agency could negotiate on its own. Similar vehicles for domestic delivery services saved over $31 million in FY 2011 over what agencies were paying under previous agreements. 
+</p>
+<p class="text">
+</p>
+<p class="text">Additionally, the Office of Management and Budget (OMB) called on agencies to review certain information technology (IT) investments through the PortfolioStat process, I which has resulted in the identification of significant savings opportunities. Agencies are using the results of these reviews to better consolidate their spending in several categories and reduce contract duplication. These efforts will serve as a foundation for enabling additional strategic sourcing to support the PortfolioStat objective of maximizing the return on IT investments by consolidating the acquisition and management of commodity IT goods and services and increasing the use of shared-service delivery models. 
+</p>
+<p class="text">
+</p>
+<p class="text">This memorandum builds on the Administration's successful efforts and establishes a broad strategic sourcing initiative to ensure that all agencies manage their acquisitions effectively and that, wherever possible, agencies join together to negotiate the best deal for the taxpayer.  While every agency must eliminate inefficiencies from its acquisition processes, this initiative puts additional responsibilities for designing and implementing government-wide strategic sourcing solutions on large agencies, which make up the vast majority of all Federal contracting. 
+</p>
+<p class="text">
+</p>
+<p class="text">I. Designation of Strategic Sourcing Accountable Officials (SSAOs) by CFO Act Agencies
+</p>
+<p class="text">
+</p>
+<p class="text">An organization's success in strategic sourcing requires senior-level leadership and commitment. Therefore, the <span class='tag who' data-reqs='["74.03"]'>head of each of the 24 Chief Financial Officer (CFO) Act agencies</span> <span class='tag priority' data-reqs='["74.03"]'>shall</span> <span class='tag action' data-reqs='["74.03"]'>designate</span> a <span class='tag obj' data-reqs='["74.03"]'>Strategic Sourcing Accountable Official (SSAO)</span>, who will have the authority to coordinate the agency's internal strategic sourcing activities and its participation in governmentwide efforts, such as those described below. Each agency shall <span class='tag how' data-reqs='["74.03"]'>send the proposed SSAO's name and contact information to OMB</span> by <span class='tag when' data-reqs='["74.03"]'>January 15,2013</span>.
+</p>
+<p class="text">
+</p>
+<p class="text">II. Establishment of the Interagency Strategic Sourcing Leadership Council (SSLC)
+</p>
+<p class="text">
+</p>
+<p class="text">The majority of Federal spending is driven by a small number oflarge agencies, so these agencies are critical to the implementation and success of government-wide strategic sourcing efforts. Many of these agencies have experience with strategic sourcing efforts, and some of them currently manage government-wide acquisition contracts (GWACs) that could be adapted to support strategic sourcing efforts.
+</p>
+<p class="text">
+</p>
+<p class="text">Therefore, I have established the Strategic Sourcing Leadership Council (SSLC), chaired by the Administrator for Federal Procurement Policy and consisting of representatives from the Departments of Defense (DOD), Energy, Health and Human Services, Homeland Security, Veterans Affairs, the General Services Administration, the National Aeronautics and Space Administration, and other agencies as designated by the Administrator. DOD's participation on the SSLC includes representatives from the Office of the Secretary of Defense; from each of the Departments of the Army, the Navy, and the Air Force; and from the Defense Logistics Agency.  In addition, because small businesses playa vital role in Federal contracting, the SSLC includes a representative from the Small Business Administration. 
+</p>
+<p class="text">
+</p>
+<p class="text">The SSLC shall, in consultation with the Chief Acquisition Officers Council, the Chief Financial Officers Council, the Chief Information Officers Council, the Performance Improvement Council, and other interagency councils as necessary, lead the government's efforts to increase the use of government-wide management and sourcing of goods and services. The <span class='tag who' data-reqs='["74.04"]'>SSLC</span> <span class='tag priority' data-reqs='["74.04"]'>will</span> <span class='tag action' data-reqs='["74.04"]'>meet</span> <span class='tag when' data-reqs='["74.04"]'>regularly</span> to provide long-term leadership of the government's strategic sourcing efforts as well as to take actions that save taxpayer dollars now. 
+</p>
+<p class="text">
+</p>
+<p class="text">To that end, by <span class='tag when' data-reqs='["74.05"]'>March 2013</span>, the <span class='tag who' data-reqs='["74.05"]'>SSLC</span> <span class='tag priority' data-reqs='["74.05"]'>shall</span> <span class='tag action' data-reqs='["74.05"]'>submit</span> <span class='tag how' data-reqs='["74.05"]'>to OMB</span> a <span class='tag obj' data-reqs='["74.05"]'>set of recommendations</span> for management strategies for specific goods and services - including several IT commodities identified through the PortfolioStat process - that would ensure that the Federal government receives the most favorable offer possible. At a minimum, the SSLC recommendations shall:
+</p>
+<p class="text">
+</p>
+<p class="text">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; identify at least five products and/or services for which new government-wide acquisition vehicles or management approaches should be developed and made mandatory, to the maximum extent practicable, for the SSLC agencies;
+</p>
+<p class="text">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; for these identified commodities and solutions, provide a supporting spend analysis, estimate savings opportunities, and define metrics for tracking progress;
+</p>
+<p class="text">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; identify existing contract vehicles and relevant contract renewal dates that could be used to develop transition strategies to the new solutions;
+</p>
+<p class="text">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; identify agencies that should serve as "executive agents" to lead the development of each of these new solutions (with the assistance of interagency teams comprised of agency experts);
+</p>
+<p class="text">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; propose plans and management strategies to maximize the use of each strategic sourcing effort;
+</p>
+<p class="text">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; propose vendor management or other strategies that could be used to reduce the variability in the prices paid for similar goods and services, where the development of new government-wide vehicles may not be immediately feasible; and
+</p>
+<p class="text">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; propose other savings strategies that could be implemented, such as adapting existing vehicles (e.g., Multiple Award Schedules, GWACs, and Multi-agency Contracts) to ensure that certain characteristics of strategic sourcing are followed. 
+</p>
+<p class="text">
+</p>
+<p class="text">Additionally, each of the <span class='tag who' data-reqs='["74.06"]'>SSLC agencies</span> <span class='tag priority' data-reqs='["74.06"]'>shall</span> <span class='tag action' data-reqs='["74.06"]'>promote</span>, to the maximum extent practicable, <span class='tag obj' data-reqs='["74.06"]'>sound strategic sourcing practices</span> <span class='tag how' data-reqs='["74.06"]'>within their agencies</span>. For example, each <span class='tag who' data-reqs='["74.07"]'>SSLC agency</span> <span class='tag priority' data-reqs='["74.07"]'>shall</span> <span class='tag action' data-reqs='["74.07"]'>establish</span> an <span class='tag obj' data-reqs='["74.07"]'>internal cross-functional strategic sourcing council</span> to oversee the· agency's related activities. These efforts include, but are not limited to, issuing and enforcing mandatory use policies for government wide and agency wide strategic sourcing solutions to the extent appropriate, providing acquisition and management data to the General Services Administration and other executive agents in support of the development of new solutions, and tracking spending and savings information for use by OMB, as further directed by the Office of Federal Procurement Policy. 
+</p>
+<p class="text">
+</p>
+<p class="text">III. Additional Responsibilities of the General Services Administration
+</p>
+<p class="text">
+</p>
+<p class="text">In addition to its responsibilities under sections I and II, above, the
+</p>
+<p class="text"><span class='tag who' data-reqs='["74.08", "74.09", "74.10"]'>Administrator of General Services</span> <span class='tag priority' data-reqs='["74.08", "74.09", "74.10"]'>shall</span> also:
+</p>
+<p class="text">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span class='tag action' data-reqs='["74.08"]'>implement</span>, <span class='tag how' data-reqs='["74.08"]'>in consultation with the SSLC</span>, <span class='tag obj' data-reqs='["74.08"]'>at least five new government-wide strategic sourcing solutions</span> in each of <span class='tag when' data-reqs='["74.08"]'>FY 2013 and FY 2014</span>;
+</p>
+<p class="text">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span class='tag action' data-reqs='["74.09"]'>increase</span> the <span class='tag obj' data-reqs='["74.09"]'>transparency of prices paid for common goods and services for use by agency officials in market research and negotiations</span>; and 
+</p>
+<p class="text">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span class='tag when' data-reqs='["74.10"]'>as needed</span>, <span class='tag action' data-reqs='["74.10"]'>promulgate</span> <span class='tag obj' data-reqs='["74.10"]'>requirements, regulations, and best practices for acquiring, using, and, where applicable, disposing of the commodities managed through strategic sourcing initiatives</span>. 
+</p>
+<p class="text">
+</p>
+<p class="text">IV. Characteristics of Strategic Sourcing Acquisition Vehicles
+</p>
+<p class="text">
+</p>
+<p class="text">The specific characteristics of strategic sourcing vehicles will vary according to the product or service being sourced. However, at a minimum, <span class='tag who' data-reqs='["74.11", "74.12", "74.13", "74.14"]'>government-wide vehicles</span> <span class='tag priority' data-reqs='["74.11", "74.12", "74.13", "74.14", "74.15", "74.16"]'>shall</span>:
+</p>
+<p class="text">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span class='tag action' data-reqs='["74.11"]'>reflect</span> <span class='tag obj' data-reqs='["74.11"]'>input from a large number of potential agency users - especially the largest likely users - regarding customer demand for the goods and services being considered, the acquisition strategy (including contract pricing, delivery and other terms and conditions, and performance requirements), and the commodity management approach</span>;
+</p>
+<p class="text">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span class='tag action' data-reqs='["74.12"]'>ensure</span> that <span class='tag obj' data-reqs='["74.12"]'>the Federal government gets credit for all sales provided under that vehicle, regardless of payment method, unless the sales are identified with other government contracts</span>, so that volume-based pricing discounts can be applied;
+</p>
+<p class="text">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span class='tag action' data-reqs='["74.13"]'>include</span> <span class='tag obj' data-reqs='["74.13"]'>tiered pricing, or other appropriate strategies</span>, to reduce prices as cumulative sales volume increases;
+</p>
+<p class="text">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span class='tag action' data-reqs='["74.14"]'>require</span> <span class='tag how' data-reqs='["74.14"]'>vendors to provide</span> <span class='tag obj' data-reqs='["74.14"]'>sufficient pricing, usage, and performance data</span> to enable the government to improve their commodity management practices on an ongoing basis; and
+</p>
+<p class="text">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; be supported by a <span class='tag who' data-reqs='["74.15", "74.16"]'>contract administration plan</span> that demonstrates commitment <span class='tag how' data-reqs='["74.15", "74.16"]'>by the executive agent</span> to <span class='tag obj' data-reqs='["74.15"]'>perform active commodity management</span> and <span class='tag obj' data-reqs='["74.16"]'>monitor vendor performance and pricing changes throughout the life of the contract</span> to ensure the benefits of strategic sourcing are maintained. 
+</p>
+<p class="text">
+</p>
+<p class="text">V. Increasing Small Business Opportunities
+</p>
+<p class="text">
+</p>
+<p class="text">Maximizing small business utilization in Federal contracting remains a top priority of this Administration. To the maximum extent practicable, all <span class='tag who' data-reqs='["74.17", "74.18"]'>strategic sourcing opportunities</span> <span class='tag priority' data-reqs='["74.17", "74.18"]'>shall</span> <span class='tag action' data-reqs='["74.17"]'>seek to increase</span> <span class='tag obj' data-reqs='["74.17"]'>participation by small businesses</span>. To that end, all <span class='tag who' data-reqs='["74.18", "74.19"]'>proposed strategic sourcing agreements</span> <span class='tag priority' data-reqs='["74.18", "74.19"]'>must</span> <span class='tag action' data-reqs='["74.18"]'>baseline</span> <span class='tag obj' data-reqs='["74.18"]'>small business use</span> <span class='tag how' data-reqs='["74.18"]'>under current strategies</span> and <span class='tag action' data-reqs='["74.19"]'>set</span> <span class='tag obj' data-reqs='["74.19"]'>goals to meet or exceed that baseline participation</span> <span class='tag how' data-reqs='["74.19"]'>under the new strategic sourcing vehicles</span>.
+</p>
+<p class="text">
+</p>
+<p class="text">Thank you for your attention to this important initiative. For additional information, please contact Jack Kelly at the Office of Federal Procurement Policy on (202) 395-7579 or jkelly@omb.eop.gov. 
+</p>
+
+</body>
+</html>
+    

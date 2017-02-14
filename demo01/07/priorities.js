@@ -1,0 +1,1 @@
+var data = {"datasets": [{"data": [884, 231, 38, 93, 24, 98], "backgroundColor": ["darkred", "red", "pink", "blue", "yellow", "grey"]}], "labels": ["Must", "Should", "May", "Action", "Definition", "Other"]};
