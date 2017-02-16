@@ -1,0 +1,66 @@
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/simplemde/latest/simplemde.min.css">
+<style>
+  .priority {
+    color: red;
+    font-weight: bold;
+  }
+
+  .requirement {
+    color: green;
+    font-weight: bold;
+  }
+
+  .priority-button {
+    background-color: red;
+  }
+
+  .requirement-button {
+    background-color: green;
+  }
+</style>
+<textarea></textarea>
+
+<script src="https://cdn.jsdelivr.net/simplemde/latest/simplemde.min.js"></script>
+<script>
+var simplemde = new SimpleMDE({
+  toolbar: ["bold",
+    {
+      name: "priority",
+      title: "Priority",
+      className: "priority-button",
+      action: function(editor){
+        let cm = editor.codemirror;
+        let start = cm.getCursor("from");
+        let end = cm.getCursor("to");
+        let selection = cm.getSelection();
+        cm.replaceSelection("[priority]" + selection + "[/priority]");
+        start.ch = start.ch + 10;
+        end.ch = end.ch + 10;
+        cm.markText(start, end, {
+          className: "priority"
+        });
+
+      }
+    },
+    {
+      name: "requirement",
+      title: "Requirement",
+      className: "requirement-button",
+      action: function(editor){
+        let cm = editor.codemirror;
+        let start = cm.getCursor("from");
+        let end = cm.getCursor("to");
+        let selection = cm.getSelection();
+        cm.replaceSelection("[requirement]" + selection + "[/requirement]");
+        start.ch = start.ch + 13;
+        end.ch = end.ch + 13;
+        cm.markText(start, end, {
+          className: "requirement"
+        });
+
+      }
+    }
+  ]
+});
+</script>
+
