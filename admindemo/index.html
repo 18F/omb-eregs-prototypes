@@ -10,12 +10,22 @@
     font-weight: bold;
   }
 
-  .priority-button {
+  a.priority-button, a.priority-button:hover {
     background-color: red;
+    color: white !important;
   }
 
-  .requirement-button {
+  a.requirement-button, a.requirement-button:hover {
     background-color: green;
+    color: white !important;
+  }
+
+  .priority-button::before {
+    content: "P"
+  }
+
+  .requirement-button::before {
+    content: "R"
   }
 </style>
 <textarea></textarea>
@@ -23,7 +33,7 @@
 <script src="https://cdn.jsdelivr.net/simplemde/latest/simplemde.min.js"></script>
 <script>
 var simplemde = new SimpleMDE({
-  toolbar: ["bold",
+  toolbar: ["bold", "italic",
     {
       name: "priority",
       title: "Priority",
