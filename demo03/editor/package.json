@@ -1,0 +1,27 @@
+{
+  "name": "editor",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-polyfill": "^6.26.0",
+    "prosemirror-commands": "^0.24.0",
+    "prosemirror-history": "^0.24.0",
+    "prosemirror-keymap": "^0.24.0",
+    "prosemirror-menu": "^0.24.0",
+    "prosemirror-schema-basic": "^0.24.0",
+    "prosemirror-state": "^0.24.0",
+    "prosemirror-view": "^0.24.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.0",
+    "webpack": "^3.6.0"
+  }
+}
